@@ -1,0 +1,21 @@
+[2023-06-08T11:22:56.524+0000] {processor.py:154} INFO - Started process (PID=844) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-06-08T11:22:56.526+0000] {processor.py:756} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2023-06-08T11:22:56.528+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:22:56.528+0000] {dagbag.py:537} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-06-08T11:22:56.553+0000] {processor.py:766} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-06-08T11:22:56.594+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:22:56.594+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-08T11:22:56.611+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:22:56.611+0000] {dag.py:3340} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2023-06-08T11:22:56.626+0000] {processor.py:176} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.107 seconds
+[2023-06-08T11:23:26.998+0000] {processor.py:154} INFO - Started process (PID=912) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-06-08T11:23:27.003+0000] {processor.py:756} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2023-06-08T11:23:27.005+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:27.005+0000] {dagbag.py:537} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-06-08T11:23:27.027+0000] {processor.py:766} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-06-08T11:23:27.068+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:27.067+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-08T11:23:27.088+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:27.088+0000] {dag.py:3340} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2023-06-08T11:23:27.105+0000] {processor.py:176} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.111 seconds
+[2023-06-08T11:23:57.670+0000] {processor.py:154} INFO - Started process (PID=979) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-06-08T11:23:57.672+0000] {processor.py:756} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2023-06-08T11:23:57.673+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:57.673+0000] {dagbag.py:537} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-06-08T11:23:57.695+0000] {processor.py:766} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-06-08T11:23:57.731+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:57.731+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-08T11:23:57.751+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:57.751+0000] {dag.py:3340} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2023-06-08T11:23:57.762+0000] {processor.py:176} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.094 seconds

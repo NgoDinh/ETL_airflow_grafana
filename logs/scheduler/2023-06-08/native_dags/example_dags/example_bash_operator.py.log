@@ -1,0 +1,21 @@
+[2023-06-08T11:22:58.815+0000] {processor.py:154} INFO - Started process (PID=858) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-08T11:22:58.817+0000] {processor.py:756} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-08T11:22:58.820+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:22:58.819+0000] {dagbag.py:537} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-08T11:22:58.839+0000] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-08T11:22:58.880+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:22:58.880+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-08T11:22:58.905+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:22:58.905+0000] {dag.py:3340} INFO - Setting next_dagrun for example_bash_operator to 2023-06-07T00:00:00+00:00, run_after=2023-06-08T00:00:00+00:00
+[2023-06-08T11:22:58.923+0000] {processor.py:176} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.112 seconds
+[2023-06-08T11:23:29.208+0000] {processor.py:154} INFO - Started process (PID=926) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-08T11:23:29.210+0000] {processor.py:756} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-08T11:23:29.212+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:29.212+0000] {dagbag.py:537} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-08T11:23:29.229+0000] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-08T11:23:29.263+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:29.263+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-08T11:23:29.280+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:29.279+0000] {dag.py:3340} INFO - Setting next_dagrun for example_bash_operator to 2023-06-07T00:00:00+00:00, run_after=2023-06-08T00:00:00+00:00
+[2023-06-08T11:23:29.294+0000] {processor.py:176} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.089 seconds
+[2023-06-08T11:23:59.880+0000] {processor.py:154} INFO - Started process (PID=993) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-08T11:23:59.882+0000] {processor.py:756} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-08T11:23:59.884+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:59.884+0000] {dagbag.py:537} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-08T11:23:59.903+0000] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-08T11:23:59.945+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:59.945+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-08T11:23:59.974+0000] {logging_mixin.py:120} INFO - [2023-06-08T11:23:59.974+0000] {dag.py:3340} INFO - Setting next_dagrun for example_bash_operator to 2023-06-07T00:00:00+00:00, run_after=2023-06-08T00:00:00+00:00
+[2023-06-08T11:23:59.999+0000] {processor.py:176} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.122 seconds

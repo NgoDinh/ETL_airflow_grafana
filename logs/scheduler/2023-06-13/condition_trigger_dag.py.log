@@ -1,0 +1,305 @@
+[2023-06-13T06:56:03.882+0000] {processor.py:154} INFO - Started process (PID=21072) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:56:03.885+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:56:03.887+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:56:03.887+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:56:03.916+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:56:03.913+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/condition_trigger_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/condition_trigger_dag.py", line 15, in <module>
+    with DAG("condition_trigger_dag", start_date=datetime(2023,1,1), interval_schedule="@daily", catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'interval_schedule'
+[2023-06-13T06:56:03.918+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:56:03.944+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.064 seconds
+[2023-06-13T06:56:21.301+0000] {processor.py:154} INFO - Started process (PID=21086) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:56:21.308+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:56:21.310+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:56:21.310+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:56:21.341+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:56:21.339+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/condition_trigger_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/condition_trigger_dag.py", line 19, in <module>
+    with DAG("condition_trigger_dag", start_date=datetime(2023,1,1), interval_schedule="@daily", catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'interval_schedule'
+[2023-06-13T06:56:21.342+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:56:21.362+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.064 seconds
+[2023-06-13T06:56:52.167+0000] {processor.py:154} INFO - Started process (PID=21121) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:56:52.170+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:56:52.171+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:56:52.171+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:56:52.187+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:56:52.185+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/condition_trigger_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/condition_trigger_dag.py", line 19, in <module>
+    with DAG("condition_trigger_dag", start_date=datetime(2023,1,1), interval_schedule="@daily", catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'interval_schedule'
+[2023-06-13T06:56:52.189+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:56:52.208+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.045 seconds
+[2023-06-13T06:57:22.733+0000] {processor.py:154} INFO - Started process (PID=21156) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:57:22.736+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:57:22.737+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:57:22.737+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:57:22.751+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:57:22.749+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/condition_trigger_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/condition_trigger_dag.py", line 19, in <module>
+    with DAG("condition_trigger_dag", start_date=datetime(2023,1,1), interval_schedule="@daily", catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'interval_schedule'
+[2023-06-13T06:57:22.753+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:57:22.772+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.043 seconds
+[2023-06-13T06:57:52.951+0000] {processor.py:154} INFO - Started process (PID=21191) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:57:52.955+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:57:52.956+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:57:52.956+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:57:52.969+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:57:52.967+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/condition_trigger_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/condition_trigger_dag.py", line 19, in <module>
+    with DAG("condition_trigger_dag", start_date=datetime(2023,1,1), interval_schedule="@daily", catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'interval_schedule'
+[2023-06-13T06:57:52.970+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:57:52.989+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.042 seconds
+[2023-06-13T06:58:06.312+0000] {processor.py:154} INFO - Started process (PID=21204) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:58:06.315+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:58:06.317+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:06.317+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:58:06.340+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:06.338+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/condition_trigger_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/condition_trigger_dag.py", line 19, in <module>
+    with DAG("condition_trigger_dag", start_date=datetime(2023,1,1), interval_schedule="@daily", catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'interval_schedule'
+[2023-06-13T06:58:06.343+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:58:06.362+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.052 seconds
+[2023-06-13T06:58:36.921+0000] {processor.py:154} INFO - Started process (PID=21239) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:58:36.923+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:58:36.925+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:36.925+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:58:36.942+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:36.940+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/condition_trigger_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/condition_trigger_dag.py", line 19, in <module>
+    with DAG("condition_trigger_dag", start_date=datetime(2023,1,1), interval_schedule="@daily", catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'interval_schedule'
+[2023-06-13T06:58:36.944+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:58:36.964+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.046 seconds
+[2023-06-13T06:58:47.259+0000] {processor.py:154} INFO - Started process (PID=21251) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:58:47.261+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:58:47.263+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:47.262+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:58:47.314+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:58:47.506+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:47.506+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:condition_trigger_dag
+[2023-06-13T06:58:47.514+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:47.514+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:condition_trigger_dag
+[2023-06-13T06:58:47.519+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:47.519+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:condition_trigger_dag
+[2023-06-13T06:58:47.520+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:47.520+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T06:58:47.530+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:47.530+0000] {dag.py:2606} INFO - Creating ORM DAG for condition_trigger_dag
+[2023-06-13T06:58:47.540+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:58:47.540+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-12T00:00:00+00:00, run_after=2023-06-13T00:00:00+00:00
+[2023-06-13T06:58:47.558+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.303 seconds
+[2023-06-13T06:59:17.684+0000] {processor.py:154} INFO - Started process (PID=21286) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:59:17.687+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:59:17.688+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:59:17.688+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:59:17.724+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:59:17.756+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:59:17.756+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T06:59:17.882+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:59:17.881+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T06:59:17.895+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.214 seconds
+[2023-06-13T06:59:48.593+0000] {processor.py:154} INFO - Started process (PID=21312) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:59:48.596+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T06:59:48.598+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:59:48.598+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:59:48.636+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T06:59:48.669+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:59:48.669+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T06:59:48.783+0000] {logging_mixin.py:120} INFO - [2023-06-13T06:59:48.783+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T06:59:48.793+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.206 seconds
+[2023-06-13T07:00:19.249+0000] {processor.py:154} INFO - Started process (PID=21347) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:00:19.251+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:00:19.253+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:00:19.253+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:00:19.273+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:00:19.305+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:00:19.304+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:00:19.322+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:00:19.322+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:00:19.335+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.090 seconds
+[2023-06-13T07:00:49.602+0000] {processor.py:154} INFO - Started process (PID=21382) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:00:49.605+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:00:49.607+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:00:49.607+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:00:49.632+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:00:49.668+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:00:49.668+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:00:49.700+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:00:49.700+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:00:49.713+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.115 seconds
+[2023-06-13T07:01:19.762+0000] {processor.py:154} INFO - Started process (PID=21417) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:01:19.764+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:01:19.765+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:01:19.765+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:01:19.785+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:01:19.818+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:01:19.818+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:01:19.838+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:01:19.838+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:01:19.853+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.094 seconds
+[2023-06-13T07:01:50.338+0000] {processor.py:154} INFO - Started process (PID=21450) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:01:50.341+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:01:50.343+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:01:50.343+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:01:50.374+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:01:50.425+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:01:50.425+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:01:50.455+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:01:50.455+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:01:50.660+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.326 seconds
+[2023-06-13T07:02:21.581+0000] {processor.py:154} INFO - Started process (PID=21486) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:02:21.585+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:02:21.587+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:02:21.587+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:02:21.624+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:02:21.667+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:02:21.667+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:02:21.791+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:02:21.791+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:02:21.805+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.229 seconds
+[2023-06-13T07:02:51.942+0000] {processor.py:154} INFO - Started process (PID=21512) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:02:51.944+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:02:51.947+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:02:51.947+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:02:51.971+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:02:52.005+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:02:52.005+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:02:52.247+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:02:52.247+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:02:52.258+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.320 seconds
+[2023-06-13T07:03:22.420+0000] {processor.py:154} INFO - Started process (PID=21547) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:03:22.422+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:03:22.423+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:03:22.423+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:03:22.444+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:03:22.476+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:03:22.475+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:03:22.492+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:03:22.492+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:03:22.505+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.089 seconds
+[2023-06-13T07:03:39.725+0000] {processor.py:154} INFO - Started process (PID=21570) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:03:39.728+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:03:39.730+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:03:39.729+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:03:39.767+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:03:39.805+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:03:39.805+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:03:39.824+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:03:39.824+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:03:39.841+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.119 seconds
+[2023-06-13T07:04:10.130+0000] {processor.py:154} INFO - Started process (PID=21605) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:04:10.134+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:04:10.136+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:04:10.136+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:04:10.165+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:04:10.204+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:04:10.204+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:04:10.223+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:04:10.223+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:04:10.239+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.116 seconds
+[2023-06-13T07:04:40.316+0000] {processor.py:154} INFO - Started process (PID=21632) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:04:40.318+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:04:40.321+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:04:40.321+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:04:40.344+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:04:40.375+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:04:40.375+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:04:40.394+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:04:40.394+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:04:40.559+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.246 seconds
+[2023-06-13T07:05:10.669+0000] {processor.py:154} INFO - Started process (PID=21667) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:05:10.672+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:05:10.674+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:05:10.674+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:05:10.695+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:05:10.739+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:05:10.739+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:05:10.881+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:05:10.881+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:05:10.897+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.232 seconds
+[2023-06-13T07:05:40.982+0000] {processor.py:154} INFO - Started process (PID=21701) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:05:40.985+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:05:40.989+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:05:40.989+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:05:41.015+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:05:41.053+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:05:41.053+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:05:41.184+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:05:41.184+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:05:41.225+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.248 seconds
+[2023-06-13T07:06:12.270+0000] {processor.py:154} INFO - Started process (PID=21736) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:06:12.273+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:06:12.275+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:06:12.275+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:06:12.299+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:06:12.337+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:06:12.337+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:06:12.358+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:06:12.358+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:06:12.375+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.108 seconds
+[2023-06-13T07:06:43.395+0000] {processor.py:154} INFO - Started process (PID=21771) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:06:43.398+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:06:43.400+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:06:43.400+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:06:43.435+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:06:43.487+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:06:43.487+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:06:43.507+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:06:43.507+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:06:43.522+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.132 seconds
+[2023-06-13T07:07:13.869+0000] {processor.py:154} INFO - Started process (PID=21807) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:07:13.872+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:07:13.875+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:07:13.875+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:07:13.904+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:07:13.946+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:07:13.946+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:07:13.968+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:07:13.967+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:07:13.986+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.122 seconds
+[2023-06-13T07:07:32.924+0000] {processor.py:154} INFO - Started process (PID=21823) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:07:32.926+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:07:32.928+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:07:32.928+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:07:32.966+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:07:32.998+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:07:32.998+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:07:33.015+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:07:33.015+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:07:33.143+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.223 seconds
+[2023-06-13T07:07:35.966+0000] {processor.py:154} INFO - Started process (PID=21835) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:07:35.969+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:07:35.971+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:07:35.971+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:07:36.030+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:07:36.073+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:07:36.073+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:07:36.105+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:07:36.105+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:07:36.292+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.331 seconds
+[2023-06-13T07:08:07.147+0000] {processor.py:154} INFO - Started process (PID=21870) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:08:07.152+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:08:07.153+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:08:07.153+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:08:07.172+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:08:07.206+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:08:07.206+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:08:07.328+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:08:07.328+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:08:07.340+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.197 seconds
+[2023-06-13T07:08:37.627+0000] {processor.py:154} INFO - Started process (PID=21895) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:08:37.629+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:08:37.630+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:08:37.630+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:08:37.667+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:08:37.699+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:08:37.699+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:08:37.823+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:08:37.823+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:08:37.836+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.212 seconds
+[2023-06-13T07:08:48.057+0000] {processor.py:154} INFO - Started process (PID=21907) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:08:48.059+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:08:48.061+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:08:48.061+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:08:48.100+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:08:48.279+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:08:48.279+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:08:48.306+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:08:48.306+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:08:48.325+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.272 seconds
+[2023-06-13T07:09:19.171+0000] {processor.py:154} INFO - Started process (PID=21942) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:09:19.174+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:09:19.176+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:09:19.176+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:09:19.210+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:09:19.256+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:09:19.256+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:09:19.275+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:09:19.275+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:09:19.289+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.122 seconds
+[2023-06-13T07:09:49.414+0000] {processor.py:154} INFO - Started process (PID=21974) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:09:49.416+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:09:49.418+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:09:49.418+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:09:49.440+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:09:49.479+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:09:49.479+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:09:49.499+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:09:49.499+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:09:49.519+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.109 seconds
+[2023-06-13T07:10:20.353+0000] {processor.py:154} INFO - Started process (PID=22011) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:10:20.357+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:10:20.359+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:10:20.359+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:10:20.381+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:10:20.415+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:10:20.415+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:10:20.433+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:10:20.433+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:10:20.446+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.096 seconds
+[2023-06-13T07:10:44.879+0000] {processor.py:154} INFO - Started process (PID=22036) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:10:44.881+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:10:44.882+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:10:44.882+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:10:44.913+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:10:45.084+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:10:45.084+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:10:45.099+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:10:45.099+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:10:45.117+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.242 seconds
+[2023-06-13T07:10:45.899+0000] {processor.py:154} INFO - Started process (PID=22037) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:10:45.901+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:10:45.903+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:10:45.903+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:10:45.938+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:10:45.960+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:10:45.960+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:10:45.978+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:10:45.978+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:10:45.998+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.102 seconds
+[2023-06-13T07:11:16.037+0000] {processor.py:154} INFO - Started process (PID=22072) to work on /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:11:16.040+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/condition_trigger_dag.py for tasks to queue
+[2023-06-13T07:11:16.042+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:11:16.042+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:11:16.067+0000] {processor.py:766} INFO - DAG(s) dict_keys(['condition_trigger_dag']) retrieved from /opt/airflow/dags/condition_trigger_dag.py
+[2023-06-13T07:11:16.108+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:11:16.108+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-06-13T07:11:16.250+0000] {logging_mixin.py:120} INFO - [2023-06-13T07:11:16.250+0000] {dag.py:3340} INFO - Setting next_dagrun for condition_trigger_dag to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T07:11:16.263+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/condition_trigger_dag.py took 0.230 seconds
