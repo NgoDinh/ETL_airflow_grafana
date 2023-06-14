@@ -1,0 +1,54 @@
+[2023-06-14T00:13:54.902+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: group_dag.downloas.download_c scheduled__2023-06-13T00:00:00+00:00 [queued]>
+[2023-06-14T00:13:55.140+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: group_dag.downloas.download_c scheduled__2023-06-13T00:00:00+00:00 [queued]>
+[2023-06-14T00:13:55.143+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-14T00:13:55.145+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-06-14T00:13:55.153+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-14T00:13:55.333+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): downloas.download_c> on 2023-06-13 00:00:00+00:00
+[2023-06-14T00:13:55.383+0000] {standard_task_runner.py:55} INFO - Started process 1116 to run task
+[2023-06-14T00:13:55.613+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'group_dag', 'downloas.download_c', 'scheduled__2023-06-13T00:00:00+00:00', '--job-id', '143', '--raw', '--subdir', 'DAGS_FOLDER/group_dag.py', '--cfg-path', '/tmp/tmpgbaiztnj']
+[2023-06-14T00:13:55.654+0000] {standard_task_runner.py:83} INFO - Job 143: Subtask downloas.download_c
+[2023-06-14T00:13:56.528+0000] {task_command.py:376} INFO - Running <TaskInstance: group_dag.downloas.download_c scheduled__2023-06-13T00:00:00+00:00 [running]> on host 5f3b9c67a0bc
+[2023-06-14T00:13:56.935+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=group_dag
+AIRFLOW_CTX_TASK_ID=downloas.download_c
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-13T00:00:00+00:00
+[2023-06-14T00:13:56.946+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-06-14T00:13:56.951+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 10']
+[2023-06-14T00:13:57.051+0000] {subprocess.py:86} INFO - Output:
+[2023-06-14T00:14:07.061+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-06-14T00:14:07.202+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=group_dag, task_id=downloas.download_c, execution_date=20230613T000000, start_date=20230614T001354, end_date=20230614T001407
+[2023-06-14T00:14:07.315+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-06-14T00:14:07.391+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-06-14T04:38:10.034+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: group_dag.downloas.download_c scheduled__2023-06-13T00:00:00+00:00 [queued]>
+[2023-06-14T04:38:10.071+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: group_dag.downloas.download_c scheduled__2023-06-13T00:00:00+00:00 [queued]>
+[2023-06-14T04:38:10.076+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-14T04:38:10.078+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-06-14T04:38:10.079+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-14T04:38:10.127+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): downloas.download_c> on 2023-06-13 00:00:00+00:00
+[2023-06-14T04:38:10.140+0000] {standard_task_runner.py:55} INFO - Started process 383 to run task
+[2023-06-14T04:38:10.191+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'group_dag', 'downloas.download_c', 'scheduled__2023-06-13T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/group_dag.py', '--cfg-path', '/tmp/tmpb5xixusu']
+[2023-06-14T04:38:10.197+0000] {standard_task_runner.py:83} INFO - Job 8: Subtask downloas.download_c
+[2023-06-14T04:38:10.342+0000] {task_command.py:376} INFO - Running <TaskInstance: group_dag.downloas.download_c scheduled__2023-06-13T00:00:00+00:00 [running]> on host eccc8785320d
+[2023-06-14T04:38:10.488+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=group_dag
+AIRFLOW_CTX_TASK_ID=downloas.download_c
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-13T00:00:00+00:00
+[2023-06-14T04:38:10.492+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-06-14T04:38:10.495+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 10']
+[2023-06-14T04:38:10.520+0000] {subprocess.py:86} INFO - Output:
+[2023-06-14T04:38:20.527+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-06-14T04:38:20.560+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=group_dag, task_id=downloas.download_c, execution_date=20230613T000000, start_date=20230614T043810, end_date=20230614T043820
+[2023-06-14T04:38:20.621+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-06-14T04:38:20.641+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
